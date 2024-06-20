@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row w-75 mb-3">
+            <div class="col-8 ps-2 flex direction-column">
+                <input required class="w-100" type="text" placeholder="isi todolist kamu!">
+
+            </div>
+            <div class="col-2 flex">
+                <select class="w-30 btn-primary" id="priority">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+                <button class="btnSubmit w-50 btn-success">Simpan</button>
+                <button class="btnremoveAll w-50 btn-danger">HapusSemua</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script type="module" src="./index.js"></script>
+
+</html>
